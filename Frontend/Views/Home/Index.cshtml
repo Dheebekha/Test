@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <textarea id="TextArea1" rows="2" cols="20" placeholder="Enter the tex here"></textarea> <br /><br />
+    <div id="dlWord"></div>
+    <table>
+            @*<tr>
+                <th>Words From WordPredictionService</th>
+                <th>Words From CustomDictionary</th>
+            </tr>*@
+            <tr>
+                <td><ul id="dlWord" name="wordList"></ul></td>
+                <td><ul id="dlDictionary" name="DictionaryDataList"></ul></td>
+            </tr>
+
+        </table>
+
+
+@*<ul id="dlWord" name="wordList"></ul>
+<ul id="dlDictionary" name="DictionaryDataList"></ul>*@
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#TextArea1").on("keyup", function (e) {
+            
+            if ($("#TextArea1").val() != '') {
+                var url = "https://localhost:44332/api/WordPrediction/" + $("#TextArea1").val();
+                var arr = [];
+
+                //}
+                fetch(url)
+                    .then(res => { return res.json(); })
+                    .then(data => arr = data)
+                    .then(() => console.log(arr))
+                    .then(() => showWords(arr))
+                    .catch(error => console.log(error));
+
+
+                showWords = arr => {
+                    $("#dlWord").empty();
+                    const WordssDiv = document.querySelector("#dlWord");
+                    arr.forEach(word => {
+                        const wordElement = document.createElement("li");
+                        wordElement.innerText = `${word}`;
+                        WordssDiv.append(wordElement);
+                    });
+                }
+            }
+            else {
+                $("#dlWord").empty();
+            }
+
+            if ($("#TextArea1").val() != '') {
+                var dicturl = "https://localhost:44332/api/CustomDictionary/" + $("#TextArea1").val();
+                var dictarr = [];
+                fetch(dicturl)
+                    .then(res => { return res.json(); })
+                    .then(data => dictarr = data)
+                    .then(() => console.log(dictarr))
+                    .then(() => showDictionary(dictarr))
+                    .catch(error => console.log(error));
+
+                showDictionary = dictarr => {
+                    $("#dlDictionary").empty();
+                    const WordssDiv = document.querySelector("#dlDictionary");
+                    dictarr.forEach(word => {
+                        const wordElement = document.createElement("li");
+                        wordElement.innerText = `${word.value}`;
+                        WordssDiv.append(wordElement);
+                    });
+                }
+            }
+            else {
+                $("#dlDictionary").empty();
+            }
+            
+        });
+    });
+</script>
