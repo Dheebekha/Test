@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mECCpG9QPdZFanJe6QLq2L3GaFW2fPFQENdvHmdIU/vfAqUIitt9xPAwcPmm+HC3w9JkOUYHPLqMC1FBJaG3aA==",
+  "dgSpecHash": "XhklGX0pDJuScTsMeoxeOiqDIMgGLZw11YW/Q4z8WwtB5KCzNmYTl4tlZQ2qbp0d2XZGJOY53kkSLLEhFM7BNg==",
   "success": true,
-  "projectFilePath": "E:\\Deepi Projects\\Test\\Frontend\\Frontend.csproj",
+  "projectFilePath": "E:\\Deepi Projects\\Word prediction project\\Frontend\\Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

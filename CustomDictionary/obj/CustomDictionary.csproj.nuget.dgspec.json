@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Deepi Projects\\Test\\CustomDictionary\\CustomDictionary.csproj": {}
+    "E:\\Deepi Projects\\Word prediction project\\CustomDictionary\\CustomDictionary.csproj": {}
   },
   "projects": {
-    "E:\\Deepi Projects\\Test\\CustomDictionary\\CustomDictionary.csproj": {
+    "E:\\Deepi Projects\\Word prediction project\\CustomDictionary\\CustomDictionary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Deepi Projects\\Test\\CustomDictionary\\CustomDictionary.csproj",
+        "projectUniqueName": "E:\\Deepi Projects\\Word prediction project\\CustomDictionary\\CustomDictionary.csproj",
         "projectName": "CustomDictionary",
-        "projectPath": "E:\\Deepi Projects\\Test\\CustomDictionary\\CustomDictionary.csproj",
+        "projectPath": "E:\\Deepi Projects\\Word prediction project\\CustomDictionary\\CustomDictionary.csproj",
         "packagesPath": "C:\\Users\\VDK\\.nuget\\packages\\",
-        "outputPath": "E:\\Deepi Projects\\Test\\CustomDictionary\\obj\\",
+        "outputPath": "E:\\Deepi Projects\\Word prediction project\\CustomDictionary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VDK\\AppData\\Roaming\\NuGet\\NuGet.Config",

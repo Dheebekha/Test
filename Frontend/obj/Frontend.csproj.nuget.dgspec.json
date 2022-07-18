@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Deepi Projects\\Test\\Frontend\\Frontend.csproj": {}
+    "E:\\Deepi Projects\\Word prediction project\\Frontend\\Frontend.csproj": {}
   },
   "projects": {
-    "E:\\Deepi Projects\\Test\\Frontend\\Frontend.csproj": {
+    "E:\\Deepi Projects\\Word prediction project\\Frontend\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Deepi Projects\\Test\\Frontend\\Frontend.csproj",
+        "projectUniqueName": "E:\\Deepi Projects\\Word prediction project\\Frontend\\Frontend.csproj",
         "projectName": "Frontend",
-        "projectPath": "E:\\Deepi Projects\\Test\\Frontend\\Frontend.csproj",
+        "projectPath": "E:\\Deepi Projects\\Word prediction project\\Frontend\\Frontend.csproj",
         "packagesPath": "C:\\Users\\VDK\\.nuget\\packages\\",
-        "outputPath": "E:\\Deepi Projects\\Test\\Frontend\\obj\\",
+        "outputPath": "E:\\Deepi Projects\\Word prediction project\\Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VDK\\AppData\\Roaming\\NuGet\\NuGet.Config",

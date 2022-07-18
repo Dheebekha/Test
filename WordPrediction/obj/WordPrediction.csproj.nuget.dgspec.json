@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Deepi Projects\\Test\\WordPrediction\\WordPrediction.csproj": {}
+    "E:\\Deepi Projects\\Word prediction project\\WordPrediction\\WordPrediction.csproj": {}
   },
   "projects": {
-    "E:\\Deepi Projects\\Test\\WordPrediction\\WordPrediction.csproj": {
+    "E:\\Deepi Projects\\Word prediction project\\WordPrediction\\WordPrediction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Deepi Projects\\Test\\WordPrediction\\WordPrediction.csproj",
+        "projectUniqueName": "E:\\Deepi Projects\\Word prediction project\\WordPrediction\\WordPrediction.csproj",
         "projectName": "WordPrediction",
-        "projectPath": "E:\\Deepi Projects\\Test\\WordPrediction\\WordPrediction.csproj",
+        "projectPath": "E:\\Deepi Projects\\Word prediction project\\WordPrediction\\WordPrediction.csproj",
         "packagesPath": "C:\\Users\\VDK\\.nuget\\packages\\",
-        "outputPath": "E:\\Deepi Projects\\Test\\WordPrediction\\obj\\",
+        "outputPath": "E:\\Deepi Projects\\Word prediction project\\WordPrediction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VDK\\AppData\\Roaming\\NuGet\\NuGet.Config",
